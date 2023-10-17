@@ -8,10 +8,30 @@
     ".NETCoreApp,Version=v7.0": {
       "FileUpload/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.205.11",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.1"
         },
         "runtime": {
           "FileUpload.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.204.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.204.2"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.11": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.11"
+          }
         }
       },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {}
@@ -22,6 +42,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.204.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CTCqmphudqf1Fuk6TlzpuG07PGjihUbNoz17Op4GJ0H006Q5OPZn4Pkkx8jLl2jlp+kIdeWlDajrSTrpc3h8RQ==",
+      "path": "awssdk.core/3.7.204.2",
+      "hashPath": "awssdk.core.3.7.204.2.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxsfWZ1luJAdPqO6Mxo4RX1KE0ENlIqj3TIDaTMXnzhLSHeN7nNkpndt1fTZ/vpudva8rnzc4jgKW9uMdH4grg==",
+      "path": "awssdk.s3/3.7.205.11",
+      "hashPath": "awssdk.s3.3.7.205.11.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
       "type": "package",
